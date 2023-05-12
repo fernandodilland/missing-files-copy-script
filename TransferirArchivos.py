@@ -4,7 +4,6 @@ import time
 from tkinter import Tk
 from tkinter.filedialog import askdirectory
 
-
 def obtener_archivos_faltantes(origen, destino):
     archivos_faltantes = []
     for root, dirs, files in os.walk(origen):
@@ -16,7 +15,6 @@ def obtener_archivos_faltantes(origen, destino):
             if not os.path.exists(destino_archivo):
                 archivos_faltantes.append(origen_archivo)
     return archivos_faltantes
-
 
 def copiar_archivos(origen, destino):
     if not os.path.exists(destino):
@@ -59,7 +57,6 @@ def copiar_archivos(origen, destino):
                 file.write("- {}\n".format(error))
 
     print("¡La copia de archivos se ha completado!")
-
 
 Tk().withdraw()
 origen_dir = askdirectory(title="Seleccionar directorio de origen")
