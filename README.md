@@ -37,4 +37,4 @@ Features:
 
 ## License
 
-[missing-files-copy-script](https://github.com/fernandomireles/missing-files-copy-script/) are released under [MIT license](https://github.com/fernandomireles/missing-files-copy-script/blob/main/LICENSE) . Copyright (c) [Fernando Mireles](https://github.com/fernandomireles).
+[missing-files-copy-script](https://github.com/fernandomireles/missing-files-copy-script/) are released under [MIT license](https://github.com/fernandodilland/missing-files-copy-script/blob/main/LICENSE) . Copyright (c) [Fernando Mireles](https://github.com/fernandomireles).
